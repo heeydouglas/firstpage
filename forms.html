@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <button>Formun Üzerinde Buton</button>
+    <form action="/food">
+      <button type="button">Formu Gönderme!!!</button>
+      <label for="userName">Kullanıcı Adı Giriniz:</label>
+      <input
+        type="text"
+        placeholder="Kullanıcı Adı"
+        id="userName"
+        name="userName"
+      />
+      <label for="password">Şifre Giriniz:</label>
+      <input
+        type="password"
+        placeholder="password"
+        id="password"
+        name="password"
+      />
+      <button>Form Ortası</button>
+      <label for="color">Renk Giriniz:</label>
+      <input type="color" id="color" name="color" />
+      <label
+        >Sayı Giriniz:
+        <input type="number" name="number" />
+      </label>
+      <button type="submit">Gönder</button>
+      <input type="submit" value="Gönder!!!!" />
+    </form>
+    <hr />
+    <form action="https://www.reddit.com/search/">
+      <label for="reddit">Reddit</label>
+      <input type="text" id="reddit" name="q" />
+      <button>Ara</button>
+    </form>
+    <hr />
+    <form action=""></form>
+    <hr />
+    <form action=""></form>
+    <form action="/birds">
+      <input type="checkbox" name="tos" id="agree" checked />
+      <label for="agree">Kabul ediyorum</label>
+      <p>
+        <label for="xs >XS: /label>"
+        </p>
+        <p>
+<label for="animal" > Favori Hayvanınızı Seçiniz </label>
+<select name="animal" id="animal"></select>
+<option value="">Seçiniz</option>
+<option value="bird">kuş</option>
+<option value="dog" selected >köpek</option>
+<option value="eagle">kartal</option>
+
+        </p>
+        <label for="cheese">Peynir Miktarı :</label> <br />
+            <p><input type="range" name="peynir" id="peynir" min="1">
+            
+            </p>
+
+<div>
+    <label for="comment">Özel İstek</label> <br/>
+<label for=""></label><textarea name="" id="" cols="20" rows="10"></textarea>
+
+</div>
+      <button> Yolla</button>
+    </form>
+<h2>Validations</h2>
+<form action="/spare"></form>
+<label for="first">İsim giriniz</label>
+<input type="text" name="first" id="peynir" minlength="5" maxlength="20">
+  </body>
+</html>
+<!-- http://127.0.0.1:5500/food?userName=murat -->
+<!-- http://127.0.0.1:5500/food?userName=murat&password=1234565677 -->
+<!-- http://127.0.0.1:5500/food?userName=murat&password=123&color=%23853d3d&number=34 -->
